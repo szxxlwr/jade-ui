@@ -47,6 +47,10 @@ export default {
     content: String,
     reference: {},
     popperClass: String,
+    canCloseOnClick: {
+      type: Boolean,
+      default: true
+    },
     width: {},
     visibleArrow: {
       default: true
@@ -141,6 +145,9 @@ export default {
   },
 
   methods: {
+    close() {
+      this.doClose();
+    },
     doToggle() {
       this.showPopper = !this.showPopper;
     },
@@ -195,7 +202,9 @@ export default {
         reference.contains(e.target) ||
         !popper ||
         popper.contains(e.target)) return;
-      this.showPopper = false;
+      if (this.canCloseOnClick) {
+        this.showPopper = false;
+      }
     },
     handleAfterEnter() {
       this.$emit('after-enter');
