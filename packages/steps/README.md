@@ -12,7 +12,7 @@ npm i element-steps -D
 ## Usage
 ```javascript
 import Vue from 'vue'
-import ElStep from 'element-steps'
+import ElStep from 'jade-steps'
 import 'element-theme-chalk/dist/step.css'
 
 Vue.use(ElStep)
@@ -22,7 +22,7 @@ or
 
 ```javascript
 import Vue from 'vue'
-import { ElSteps, ElStep } from 'element-steps'
+import { ElSteps, ElStep } from 'jade-steps'
 
 Vue.component('el-steps', ElSteps)
 Vue.component('el-step', ElStep)

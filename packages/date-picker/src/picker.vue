@@ -81,12 +81,12 @@
 
 <script>
 import Vue from 'vue';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
+import Clickoutside from 'jade-ui/src/utils/clickoutside';
 import { formatDate, parseDate, isDateObject, getWeekNumber } from './util';
-import Popper from 'element-ui/src/utils/vue-popper';
-import Emitter from 'element-ui/src/mixins/emitter';
-import ElInput from 'element-ui/packages/input';
-import merge from 'element-ui/src/utils/merge';
+import Popper from 'jade-ui/src/utils/vue-popper';
+import Emitter from 'jade-ui/src/mixins/emitter';
+import ElInput from 'jade-ui/packages/input';
+import merge from 'jade-ui/src/utils/merge';
 
 const NewPopper = {
   props: {

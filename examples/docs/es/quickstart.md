@@ -151,7 +151,7 @@ import {
   MessageBox,
   Message,
   Notification
-} from 'element-ui';
+} from 'jade-ui';
 
 Vue.use(Pagination);
 Vue.use(Dialog);
@@ -234,15 +234,15 @@ Importando Element completamente：
 
 ```js
 import Vue from 'vue';
-import Element from 'element-ui';
+import Element from 'jade-ui';
 Vue.use(Element, { size: 'small', zIndex: 3000 });
 ```
 
-Importando Element parcialmente：
+Importando jade parcialmente：
 
 ```js
 import Vue from 'vue';
-import { Button } from 'element-ui';
+import { Button } from 'jade-ui';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);
