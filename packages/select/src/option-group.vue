@@ -10,7 +10,7 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'jade-ui/src/mixins/emitter';
+  import Emitter from 'kade-ui/src/mixins/emitter';
 
   export default {
     mixins: [Emitter],

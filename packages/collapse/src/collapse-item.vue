@@ -44,9 +44,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'jade-ui/src/transitions/collapse-transition';
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import { generateId } from 'jade-ui/src/utils/util';
+  import ElCollapseTransition from 'kade-ui/src/transitions/collapse-transition';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import { generateId } from 'kade-ui/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',

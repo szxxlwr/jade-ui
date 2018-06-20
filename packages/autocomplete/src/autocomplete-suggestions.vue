@@ -18,9 +18,9 @@
   </transition>
 </template>
 <script>
-  import Popper from 'jade-ui/src/utils/vue-popper';
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import ElScrollbar from 'jade-ui/packages/scrollbar';
+  import Popper from 'kade-ui/src/utils/vue-popper';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import ElScrollbar from 'kade-ui/packages/scrollbar';
 
   export default {
     components: { ElScrollbar },

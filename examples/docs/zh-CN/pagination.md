@@ -140,7 +140,7 @@
 ```
 :::
 <script>
-  import { addClass } from 'jade-ui/src/utils/dom';
+  import { addClass } from 'kade-ui/src/utils/dom';
   export default {
     methods: {
       handleSizeChange(val) {

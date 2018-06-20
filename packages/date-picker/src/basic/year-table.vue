@@ -44,7 +44,7 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'jade-ui/src/utils/dom';
+  import { hasClass } from 'kade-ui/src/utils/dom';
   import { isDate, range, nextDate, getDayCountOfYear } from '../util';
 
   const datesInYear = year => {

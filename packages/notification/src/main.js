@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import { PopupManager } from 'jade-ui/src/utils/popup';
-import { isVNode } from 'jade-ui/src/utils/vdom';
+import { PopupManager } from 'kade-ui/src/utils/popup';
+import { isVNode } from 'kade-ui/src/utils/vdom';
 const NotificationConstructor = Vue.extend(Main);
 
 let instance;

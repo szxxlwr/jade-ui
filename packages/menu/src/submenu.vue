@@ -1,8 +1,8 @@
 <script>
-  import ElCollapseTransition from 'jade-ui/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'kade-ui/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import Popper from 'jade-ui/src/utils/vue-popper';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import Popper from 'kade-ui/src/utils/vue-popper';
 
   const poperMixins = {
     props: {

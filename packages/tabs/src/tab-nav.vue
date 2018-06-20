@@ -1,6 +1,6 @@
 <script>
   import TabBar from './tab-bar';
-  import { addResizeListener, removeResizeListener } from 'jade-ui/src/utils/resize-event';
+  import { addResizeListener, removeResizeListener } from 'kade-ui/src/utils/resize-event';
 
   function noop() {}
   const firstUpperCase = str => {

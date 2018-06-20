@@ -1,4 +1,4 @@
-import { addClass, removeClass } from 'jade-ui/src/utils/dom';
+import { addClass, removeClass } from 'kade-ui/src/utils/dom';
 
 class Transition {
   beforeEnter(el) {

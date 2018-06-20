@@ -96,11 +96,11 @@
   </div>
 </template>
 <script>
-  import emitter from 'jade-ui/src/mixins/emitter';
-  import Migrating from 'jade-ui/src/mixins/migrating';
+  import emitter from 'kade-ui/src/mixins/emitter';
+  import Migrating from 'kade-ui/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'jade-ui/src/utils/merge';
-  import { isKorean } from 'jade-ui/src/utils/shared';
+  import merge from 'kade-ui/src/utils/merge';
+  import { isKorean } from 'kade-ui/src/utils/shared';
 
   export default {
     name: 'ElInput',

@@ -213,12 +213,12 @@
 </template>
 
 <script type="text/babel">
-  import ElCheckbox from 'jade-ui/packages/checkbox';
+  import ElCheckbox from 'kade-ui/packages/checkbox';
   import debounce from 'throttle-debounce/debounce';
-  import { addResizeListener, removeResizeListener } from 'jade-ui/src/utils/resize-event';
-  import Mousewheel from 'jade-ui/src/directives/mousewheel';
-  import Locale from 'jade-ui/src/mixins/locale';
-  import Migrating from 'jade-ui/src/mixins/migrating';
+  import { addResizeListener, removeResizeListener } from 'kade-ui/src/utils/resize-event';
+  import Mousewheel from 'kade-ui/src/directives/mousewheel';
+  import Locale from 'kade-ui/src/mixins/locale';
+  import Migrating from 'kade-ui/src/mixins/migrating';
   import TableStore from './table-store';
   import TableLayout from './table-layout';
   import TableBody from './table-body';

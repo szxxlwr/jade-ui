@@ -1,8 +1,8 @@
 // reference https://github.com/noeldelgado/gemini-scrollbar/blob/master/index.js
 
-import { addResizeListener, removeResizeListener } from 'jade-ui/src/utils/resize-event';
-import scrollbarWidth from 'jade-ui/src/utils/scrollbar-width';
-import { toObject } from 'jade-ui/src/utils/util';
+import { addResizeListener, removeResizeListener } from 'kade-ui/src/utils/resize-event';
+import scrollbarWidth from 'kade-ui/src/utils/scrollbar-width';
+import { toObject } from 'kade-ui/src/utils/util';
 import Bar from './bar';
 
 /* istanbul ignore next */

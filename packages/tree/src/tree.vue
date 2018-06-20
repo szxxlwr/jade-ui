@@ -33,9 +33,9 @@
   import TreeStore from './model/tree-store';
   import { getNodeKey, findNearestComponent } from './model/util';
   import ElTreeNode from './tree-node.vue';
-  import {t} from 'jade-ui/src/locale';
-  import emitter from 'jade-ui/src/mixins/emitter';
-  import { addClass, removeClass } from 'jade-ui/src/utils/dom';
+  import {t} from 'kade-ui/src/locale';
+  import emitter from 'kade-ui/src/mixins/emitter';
+  import { addClass, removeClass } from 'kade-ui/src/utils/dom';
 
   export default {
     name: 'ElTree',

@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { on } from 'jade-ui/src/utils/dom';
+import { on } from 'kade-ui/src/utils/dom';
 
 const nodeList = [];
 const ctx = '@@clickoutsideContext';

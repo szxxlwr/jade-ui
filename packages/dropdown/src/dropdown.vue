@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import Migrating from 'jade-ui/src/mixins/migrating';
-  import ElButton from 'jade-ui/packages/button';
-  import ElButtonGroup from 'jade-ui/packages/button-group';
-  import { generateId } from 'jade-ui/src/utils/util';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import Migrating from 'kade-ui/src/mixins/migrating';
+  import ElButton from 'kade-ui/packages/button';
+  import ElButtonGroup from 'kade-ui/packages/button-group';
+  import { generateId } from 'kade-ui/src/utils/util';
 
   export default {
     name: 'ElDropdown',
@@ -73,7 +73,7 @@
 
     computed: {
       dropdownSize() {
-        return this.size || (this.$jade || {}).size;
+        return this.size || (this.$kade || {}).size;
       }
     },
 

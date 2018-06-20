@@ -1,4 +1,4 @@
-import VuePopup from 'jade-ui/src/utils/popup';
+import VuePopup from 'kade-ui/src/utils/popup';
 import { createTest, destroyVM } from '../util';
 
 const Popup = Object.assign({}, VuePopup, {

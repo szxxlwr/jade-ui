@@ -43,13 +43,13 @@
 </template>
 
 <script type="text/babel">
-  import Popper from 'jade-ui/src/utils/vue-popper';
-  import { PopupManager } from 'jade-ui/src/utils/popup';
-  import Locale from 'jade-ui/src/mixins/locale';
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
+  import Popper from 'kade-ui/src/utils/vue-popper';
+  import { PopupManager } from 'kade-ui/src/utils/popup';
+  import Locale from 'kade-ui/src/mixins/locale';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
   import Dropdown from './dropdown';
-  import ElCheckbox from 'jade-ui/packages/checkbox';
-  import ElCheckboxGroup from 'jade-ui/packages/checkbox-group';
+  import ElCheckbox from 'kade-ui/packages/checkbox';
+  import ElCheckboxGroup from 'kade-ui/packages/checkbox-group';
 
   export default {
     name: 'ElTableFilterPanel',

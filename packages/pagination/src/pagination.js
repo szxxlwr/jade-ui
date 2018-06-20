@@ -1,9 +1,9 @@
 import Pager from './pager.vue';
-import ElSelect from 'jade-ui/packages/select';
-import ElOption from 'jade-ui/packages/option';
-import ElInput from 'jade-ui/packages/input';
-import Locale from 'jade-ui/src/mixins/locale';
-import { valueEquals } from 'jade-ui/src/utils/util';
+import ElSelect from 'kade-ui/packages/select';
+import ElOption from 'kade-ui/packages/option';
+import ElInput from 'kade-ui/packages/input';
+import Locale from 'kade-ui/src/mixins/locale';
+import { valueEquals } from 'kade-ui/src/utils/util';
 
 export default {
   name: 'ElPagination',

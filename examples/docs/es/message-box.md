@@ -372,7 +372,7 @@ Si Element fue importado completamente, agregara los siguientes metodos globales
 Si prefieres importar `MessageBox` cuando lo necesites (on demand):
 
 ```javascript
-import { MessageBox } from 'jade-ui';
+import { MessageBox } from 'kade-ui';
 ```
 
 Los metodos correspondientes: `MessageBox`, `MessageBox.alert`, `MessageBox.confirm` y `MessageBox.prompt`. Los parametros son los mismos que los anteriores.

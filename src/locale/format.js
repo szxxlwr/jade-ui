@@ -1,4 +1,4 @@
-import { hasOwn } from 'jade-ui/src/utils/util';
+import { hasOwn } from 'kade-ui/src/utils/util';
 
 const RE_NARGS = /(%|)\{([0-9a-zA-Z_]+)\}/g;
 /**

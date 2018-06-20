@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'jade-ui/packages/tooltip';
+  import ElTooltip from 'kade-ui/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',

@@ -54,9 +54,9 @@
 </template>
 
 <script type="text/babel">
-  import ElInputNumber from 'jade-ui/packages/input-number';
+  import ElInputNumber from 'kade-ui/packages/input-number';
   import SliderButton from './button.vue';
-  import Emitter from 'jade-ui/src/mixins/emitter';
+  import Emitter from 'kade-ui/src/mixins/emitter';
 
   export default {
     name: 'ElSlider',

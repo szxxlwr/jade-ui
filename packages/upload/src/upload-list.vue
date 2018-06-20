@@ -61,8 +61,8 @@
   </transition-group>
 </template>
 <script>
-  import Locale from 'jade-ui/src/mixins/locale';
-  import ElProgress from 'jade-ui/packages/progress';
+  import Locale from 'kade-ui/src/mixins/locale';
+  import ElProgress from 'kade-ui/packages/progress';
 
   export default {
     mixins: [Locale],

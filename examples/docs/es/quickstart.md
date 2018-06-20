@@ -151,7 +151,7 @@ import {
   MessageBox,
   Message,
   Notification
-} from 'jade-ui';
+} from 'kade-ui';
 
 Vue.use(Pagination);
 Vue.use(Dialog);
@@ -234,15 +234,15 @@ Importando Element completamente：
 
 ```js
 import Vue from 'vue';
-import Element from 'jade-ui';
+import Element from 'kade-ui';
 Vue.use(Element, { size: 'small', zIndex: 3000 });
 ```
 
-Importando jade parcialmente：
+Importando kade parcialmente：
 
 ```js
 import Vue from 'vue';
-import { Button } from 'jade-ui';
+import { Button } from 'kade-ui';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);

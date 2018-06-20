@@ -18,8 +18,8 @@
 
 ```javascript
 import Vue from 'vue';
-import ElementUI from 'jade-ui';
-import 'jade-ui/lib/theme-chalk/index.css';
+import ElementUI from 'kade-ui';
+import 'kade-ui/lib/theme-chalk/index.css';
 import App from './App.vue';
 
 Vue.use(ElementUI);
@@ -235,7 +235,7 @@ Vue.prototype.$message = Message;
 
 ```js
 import Vue from 'vue';
-import Element from 'jade-ui';
+import Element from 'kade-ui';
 Vue.use(Element, { size: 'small', zIndex: 3000 });
 ```
 
@@ -243,7 +243,7 @@ Vue.use(Element, { size: 'small', zIndex: 3000 });
 
 ```js
 import Vue from 'vue';
-import { Button } from 'jade-ui';
+import { Button } from 'kade-ui';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);

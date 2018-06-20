@@ -48,9 +48,9 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'jade-ui/src/mixins/locale';
+  import Locale from 'kade-ui/src/mixins/locale';
   import { isDate, range, getDayCountOfMonth, nextDate } from '../util';
-  import { hasClass } from 'jade-ui/src/utils/dom';
+  import { hasClass } from 'kade-ui/src/utils/dom';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import debounce from 'throttle-debounce/debounce';
-import merge from 'jade-ui/src/utils/merge';
-import { hasClass, addClass, removeClass } from 'jade-ui/src/utils/dom';
+import merge from 'kade-ui/src/utils/merge';
+import { hasClass, addClass, removeClass } from 'kade-ui/src/utils/dom';
 import { orderBy, getColumnById, getRowIdentity } from './util';
 
 const sortData = (data, states) => {

@@ -34,8 +34,8 @@ const defaults = {
 
 import Vue from 'vue';
 import msgboxVue from './main.vue';
-import merge from 'jade-ui/src/utils/merge';
-import { isVNode } from 'jade-ui/src/utils/vdom';
+import merge from 'kade-ui/src/utils/merge';
+import { isVNode } from 'kade-ui/src/utils/vdom';
 
 const MessageBoxConstructor = Vue.extend(msgboxVue);
 

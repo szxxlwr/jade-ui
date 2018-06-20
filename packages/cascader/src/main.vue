@@ -61,14 +61,14 @@
 <script>
 import Vue from 'vue';
 import ElCascaderMenu from './menu';
-import ElInput from 'jade-ui/packages/input';
-import Popper from 'jade-ui/src/utils/vue-popper';
-import Clickoutside from 'jade-ui/src/utils/clickoutside';
-import emitter from 'jade-ui/src/mixins/emitter';
-import Locale from 'jade-ui/src/mixins/locale';
-import { t } from 'jade-ui/src/locale';
+import ElInput from 'kade-ui/packages/input';
+import Popper from 'kade-ui/src/utils/vue-popper';
+import Clickoutside from 'kade-ui/src/utils/clickoutside';
+import emitter from 'kade-ui/src/mixins/emitter';
+import Locale from 'kade-ui/src/mixins/locale';
+import { t } from 'kade-ui/src/locale';
 import debounce from 'throttle-debounce/debounce';
-import { generateId } from 'jade-ui/src/utils/util';
+import { generateId } from 'kade-ui/src/utils/util';
 
 const popperMixin = {
   props: {

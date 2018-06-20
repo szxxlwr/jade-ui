@@ -50,9 +50,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'jade-ui/packages/input';
-  import Focus from 'jade-ui/src/mixins/focus';
-  import RepeatClick from 'jade-ui/src/directives/repeat-click';
+  import ElInput from 'kade-ui/packages/input';
+  import Focus from 'kade-ui/src/mixins/focus';
+  import RepeatClick from 'kade-ui/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

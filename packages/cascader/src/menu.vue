@@ -1,7 +1,7 @@
 <script>
-  import { isDef } from 'jade-ui/src/utils/shared';
-  import scrollIntoView from 'jade-ui/src/utils/scroll-into-view';
-  import { generateId } from 'jade-ui/src/utils/util';
+  import { isDef } from 'kade-ui/src/utils/shared';
+  import scrollIntoView from 'kade-ui/src/utils/scroll-into-view';
+  import { generateId } from 'kade-ui/src/utils/util';
 
   const copyArray = (arr, props) => {
     if (!arr || !Array.isArray(arr) || !props) return arr;

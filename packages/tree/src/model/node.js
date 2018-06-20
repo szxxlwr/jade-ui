@@ -1,4 +1,4 @@
-import objectAssign from 'jade-ui/src/utils/merge';
+import objectAssign from 'kade-ui/src/utils/merge';
 import { markNodeData, NODE_KEY } from './util';
 
 export const getChildState = node => {

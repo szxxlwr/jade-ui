@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { addClass, removeClass } from 'jade-ui/src/utils/dom';
+import { addClass, removeClass } from 'kade-ui/src/utils/dom';
 
 let hasModal = false;
 let hasInitZIndex = false;

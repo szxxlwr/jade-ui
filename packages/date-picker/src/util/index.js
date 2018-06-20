@@ -1,5 +1,5 @@
-import dateUtil from 'jade-ui/src/utils/date';
-import { t } from 'jade-ui/src/locale';
+import dateUtil from 'kade-ui/src/utils/date';
+import { t } from 'kade-ui/src/locale';
 
 const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];

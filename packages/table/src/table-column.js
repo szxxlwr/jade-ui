@@ -1,7 +1,7 @@
-import ElCheckbox from 'jade-ui/packages/checkbox';
-import ElTag from 'jade-ui/packages/tag';
-import objectAssign from 'jade-ui/src/utils/merge';
-import { getPropByPath } from 'jade-ui/src/utils/util';
+import ElCheckbox from 'kade-ui/packages/checkbox';
+import ElTag from 'kade-ui/packages/tag';
+import objectAssign from 'kade-ui/src/utils/merge';
+import { getPropByPath } from 'kade-ui/src/utils/util';
 
 let columnIdSeed = 1;
 

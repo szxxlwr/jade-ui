@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'jade-ui/src/mixins/emitter';
-  import Migrating from 'jade-ui/src/mixins/migrating';
-  import Menubar from 'jade-ui/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'jade-ui/src/utils/dom';
+  import emitter from 'kade-ui/src/mixins/emitter';
+  import Migrating from 'kade-ui/src/mixins/migrating';
+  import Menubar from 'kade-ui/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from 'kade-ui/src/utils/dom';
 
   export default {
     name: 'ElMenu',

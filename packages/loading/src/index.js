@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import loadingVue from './loading.vue';
-import { addClass, removeClass, getStyle } from 'jade-ui/src/utils/dom';
-import { PopupManager } from 'jade-ui/src/utils/popup';
-import afterLeave from 'jade-ui/src/utils/after-leave';
-import merge from 'jade-ui/src/utils/merge';
+import { addClass, removeClass, getStyle } from 'kade-ui/src/utils/dom';
+import { PopupManager } from 'kade-ui/src/utils/popup';
+import afterLeave from 'kade-ui/src/utils/after-leave';
+import merge from 'kade-ui/src/utils/merge';
 
 const LoadingConstructor = Vue.extend(loadingVue);
 

@@ -161,10 +161,10 @@
     extractDateFormat,
     extractTimeFormat
   } from '../util';
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
-  import Locale from 'jade-ui/src/mixins/locale';
-  import ElInput from 'jade-ui/packages/input';
-  import ElButton from 'jade-ui/packages/button';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
+  import Locale from 'kade-ui/src/mixins/locale';
+  import ElInput from 'kade-ui/packages/input';
+  import ElButton from 'kade-ui/packages/button';
   import TimePicker from './time';
   import YearTable from '../basic/year-table';
   import MonthTable from '../basic/month-table';

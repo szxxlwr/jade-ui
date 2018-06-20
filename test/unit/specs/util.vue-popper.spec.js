@@ -1,4 +1,4 @@
-import VuePopper from 'jade-ui/src/utils/vue-popper';
+import VuePopper from 'kade-ui/src/utils/vue-popper';
 import { createTest } from '../util';
 
 const Popper = Object.assign({}, VuePopper, {

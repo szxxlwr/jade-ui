@@ -51,7 +51,7 @@
 
 <script>
 import throttle from 'throttle-debounce/throttle';
-import { addResizeListener, removeResizeListener } from 'jade-ui/src/utils/resize-event';
+import { addResizeListener, removeResizeListener } from 'kade-ui/src/utils/resize-event';
 
 export default {
   name: 'ElCarousel',

@@ -63,7 +63,7 @@ Next, if you need Button and Select, edit main.js:
 
 ```javascript
 import Vue from 'vue';
-import { Button, Select } from 'jade-ui';
+import { Button, Select } from 'kade-ui';
 import App from './App.vue';
 
 Vue.component(Button.name, Button);
@@ -236,7 +236,7 @@ Fully import Element：
 
 ```js
 import Vue from 'vue';
-import Element from 'jade-ui';
+import Element from 'kade-ui';
 Vue.use(Element, { size: 'small', zIndex: 3000 });
 ```
 
@@ -244,7 +244,7 @@ Partial import Element：
 
 ```js
 import Vue from 'vue';
-import { Button } from 'jade-ui';
+import { Button } from 'kade-ui';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);

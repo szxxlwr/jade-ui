@@ -367,7 +367,7 @@
 如果单独引入 `MessageBox`：
 
 ```javascript
-import { MessageBox } from 'jade-ui';
+import { MessageBox } from 'kade-ui';
 ```
 
 那么对应于上述四个全局方法的调用方法依次为：MessageBox, MessageBox.alert, MessageBox.confirm 和 MessageBox.prompt，调用参数与全局方法相同。

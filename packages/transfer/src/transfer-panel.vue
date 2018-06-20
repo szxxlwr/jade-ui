@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'jade-ui/packages/checkbox-group';
-  import ElCheckbox from 'jade-ui/packages/checkbox';
-  import ElInput from 'jade-ui/packages/input';
-  import Locale from 'jade-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'kade-ui/packages/checkbox-group';
+  import ElCheckbox from 'kade-ui/packages/checkbox';
+  import ElInput from 'kade-ui/packages/input';
+  import Locale from 'kade-ui/src/mixins/locale';
 
   export default {
     mixins: [Locale],

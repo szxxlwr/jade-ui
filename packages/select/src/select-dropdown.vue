@@ -8,7 +8,7 @@
 </template>
 
 <script type="text/babel">
-  import Popper from 'jade-ui/src/utils/vue-popper';
+  import Popper from 'kade-ui/src/utils/vue-popper';
 
   export default {
     name: 'ElSelectDropdown',

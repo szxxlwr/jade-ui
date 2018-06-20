@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import { getValueByPath } from 'jade-ui/src/utils/util';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import { getValueByPath } from 'kade-ui/src/utils/util';
 
   export default {
     mixins: [Emitter],

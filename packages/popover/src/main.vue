@@ -22,10 +22,10 @@
   </span>
 </template>
 <script>
-import Popper from 'jade-ui/src/utils/vue-popper';
-import { on, off } from 'jade-ui/src/utils/dom';
-import { addClass, removeClass } from 'jade-ui/src/utils/dom';
-import { generateId } from 'jade-ui/src/utils/util';
+import Popper from 'kade-ui/src/utils/vue-popper';
+import { on, off } from 'kade-ui/src/utils/dom';
+import { addClass, removeClass } from 'kade-ui/src/utils/dom';
+import { generateId } from 'kade-ui/src/utils/util';
 
 export default {
   name: 'ElPopover',

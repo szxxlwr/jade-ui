@@ -1,8 +1,8 @@
 <script>
 import UploadList from './upload-list';
 import Upload from './upload';
-import ElProgress from 'jade-ui/packages/progress';
-import Migrating from 'jade-ui/src/mixins/migrating';
+import ElProgress from 'kade-ui/packages/progress';
+import Migrating from 'kade-ui/src/mixins/migrating';
 
 function noop() {}
 

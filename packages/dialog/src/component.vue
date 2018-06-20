@@ -31,9 +31,9 @@
 </template>
 
 <script>
-  import Popup from 'jade-ui/src/utils/popup';
-  import Migrating from 'jade-ui/src/mixins/migrating';
-  import emitter from 'jade-ui/src/mixins/emitter';
+  import Popup from 'kade-ui/src/utils/popup';
+  import Migrating from 'kade-ui/src/mixins/migrating';
+  import emitter from 'kade-ui/src/mixins/emitter';
   import Draggabilly from 'draggabilly';
 
   export default {

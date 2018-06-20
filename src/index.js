@@ -69,8 +69,8 @@ import Header from '../packages/header/index.js';
 import Aside from '../packages/aside/index.js';
 import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
-import locale from 'jade-ui/src/locale';
-import CollapseTransition from 'jade-ui/src/transitions/collapse-transition';
+import locale from 'kade-ui/src/locale';
+import CollapseTransition from 'kade-ui/src/transitions/collapse-transition';
 
 const components = [
   Pagination,
@@ -172,7 +172,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 module.exports = {
-  version: '2.4.1',
+  version: '2.3.9',
   locale: locale.use,
   i18n: locale.i18n,
   install,

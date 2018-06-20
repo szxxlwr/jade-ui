@@ -56,13 +56,13 @@
 </template>
 <script>
   import debounce from 'throttle-debounce/debounce';
-  import ElInput from 'jade-ui/packages/input';
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
+  import ElInput from 'kade-ui/packages/input';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import Migrating from 'jade-ui/src/mixins/migrating';
-  import { generateId } from 'jade-ui/src/utils/util';
-  import Focus from 'jade-ui/src/mixins/focus';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import Migrating from 'kade-ui/src/mixins/migrating';
+  import { generateId } from 'kade-ui/src/utils/util';
+  import Focus from 'kade-ui/src/mixins/focus';
 
   export default {
     name: 'ElAutocomplete',

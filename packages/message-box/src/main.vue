@@ -77,13 +77,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'jade-ui/src/utils/popup';
-  import Locale from 'jade-ui/src/mixins/locale';
-  import ElInput from 'jade-ui/packages/input';
-  import ElButton from 'jade-ui/packages/button';
-  import { addClass, removeClass } from 'jade-ui/src/utils/dom';
-  import { t } from 'jade-ui/src/locale';
-  import Dialog from 'jade-ui/src/utils/aria-dialog';
+  import Popup from 'kade-ui/src/utils/popup';
+  import Locale from 'kade-ui/src/mixins/locale';
+  import ElInput from 'kade-ui/packages/input';
+  import ElButton from 'kade-ui/packages/button';
+  import { addClass, removeClass } from 'kade-ui/src/utils/dom';
+  import { t } from 'kade-ui/src/locale';
+  import Dialog from 'kade-ui/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

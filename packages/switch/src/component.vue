@@ -36,8 +36,8 @@
   </div>
 </template>
 <script>
-  import Focus from 'jade-ui/src/mixins/focus';
-  import Migrating from 'jade-ui/src/mixins/migrating';
+  import Focus from 'kade-ui/src/mixins/focus';
+  import Migrating from 'kade-ui/src/mixins/migrating';
 
   export default {
     name: 'ElSwitch',

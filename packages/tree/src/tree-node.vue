@@ -67,9 +67,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'jade-ui/src/transitions/collapse-transition';
-  import ElCheckbox from 'jade-ui/packages/checkbox';
-  import emitter from 'jade-ui/src/mixins/emitter';
+  import ElCollapseTransition from 'kade-ui/src/transitions/collapse-transition';
+  import ElCheckbox from 'kade-ui/packages/checkbox';
+  import emitter from 'kade-ui/src/mixins/emitter';
   import { getNodeKey } from './model/util';
 
   export default {

@@ -31,9 +31,9 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'jade-ui/src/mixins/emitter';
-  import objectAssign from 'jade-ui/src/utils/merge';
-  import { noop, getPropByPath } from 'jade-ui/src/utils/util';
+  import emitter from 'kade-ui/src/mixins/emitter';
+  import objectAssign from 'kade-ui/src/utils/merge';
+  import { noop, getPropByPath } from 'kade-ui/src/utils/util';
 
   export default {
     name: 'ElFormItem',

@@ -1,8 +1,8 @@
-import Popper from 'jade-ui/src/utils/vue-popper';
+import Popper from 'kade-ui/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass, on, off } from 'jade-ui/src/utils/dom';
-import { getFirstComponentChild } from 'jade-ui/src/utils/vdom';
-import { generateId } from 'jade-ui/src/utils/util';
+import { addClass, removeClass, on, off } from 'kade-ui/src/utils/dom';
+import { getFirstComponentChild } from 'kade-ui/src/utils/vdom';
+import { generateId } from 'kade-ui/src/utils/util';
 import Vue from 'vue';
 
 export default {

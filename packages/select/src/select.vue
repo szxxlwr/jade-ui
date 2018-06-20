@@ -134,24 +134,24 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import Focus from 'jade-ui/src/mixins/focus';
-  import Locale from 'jade-ui/src/mixins/locale';
-  import ElInput from 'jade-ui/packages/input';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import Focus from 'kade-ui/src/mixins/focus';
+  import Locale from 'kade-ui/src/mixins/locale';
+  import ElInput from 'kade-ui/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'jade-ui/packages/tag';
-  import ElScrollbar from 'jade-ui/packages/scrollbar';
+  import ElTag from 'kade-ui/packages/tag';
+  import ElScrollbar from 'kade-ui/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
-  import { addClass, removeClass, hasClass } from 'jade-ui/src/utils/dom';
-  import { addResizeListener, removeResizeListener } from 'jade-ui/src/utils/resize-event';
-  import { t } from 'jade-ui/src/locale';
-  import scrollIntoView from 'jade-ui/src/utils/scroll-into-view';
-  import { getValueByPath } from 'jade-ui/src/utils/util';
-  import { valueEquals } from 'jade-ui/src/utils/util';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
+  import { addClass, removeClass, hasClass } from 'kade-ui/src/utils/dom';
+  import { addResizeListener, removeResizeListener } from 'kade-ui/src/utils/resize-event';
+  import { t } from 'kade-ui/src/locale';
+  import scrollIntoView from 'kade-ui/src/utils/scroll-into-view';
+  import { getValueByPath } from 'kade-ui/src/utils/util';
+  import { valueEquals } from 'kade-ui/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'jade-ui/src/utils/shared';
+  import { isKorean } from 'kade-ui/src/utils/shared';
 
   const sizeMap = {
     'medium': 36,

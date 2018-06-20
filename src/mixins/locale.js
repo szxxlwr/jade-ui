@@ -1,4 +1,4 @@
-import { t } from 'jade-ui/src/locale';
+import { t } from 'kade-ui/src/locale';
 
 export default {
   methods: {

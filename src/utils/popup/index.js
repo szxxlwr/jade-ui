@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import merge from 'jade-ui/src/utils/merge';
-import PopupManager from 'jade-ui/src/utils/popup/popup-manager';
+import merge from 'kade-ui/src/utils/merge';
+import PopupManager from 'kade-ui/src/utils/popup/popup-manager';
 import getScrollBarWidth from '../scrollbar-width';
 import { getStyle, addClass, removeClass, hasClass } from '../dom';
 

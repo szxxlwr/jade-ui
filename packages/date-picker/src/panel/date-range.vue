@@ -198,12 +198,12 @@
     extractDateFormat,
     extractTimeFormat
   } from '../util';
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
-  import Locale from 'jade-ui/src/mixins/locale';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
+  import Locale from 'kade-ui/src/mixins/locale';
   import TimePicker from './time';
   import DateTable from '../basic/date-table';
-  import ElInput from 'jade-ui/packages/input';
-  import ElButton from 'jade-ui/packages/button';
+  import ElInput from 'kade-ui/packages/input';
+  import ElButton from 'kade-ui/packages/button';
 
   const advanceDate = (date, amount) => {
     return new Date(new Date(date).getTime() + amount);

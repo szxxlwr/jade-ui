@@ -42,11 +42,11 @@
 </template>
 
 <script>
-  import ElButton from 'jade-ui/packages/button';
-  import Emitter from 'jade-ui/src/mixins/emitter';
-  import Locale from 'jade-ui/src/mixins/locale';
+  import ElButton from 'kade-ui/packages/button';
+  import Emitter from 'kade-ui/src/mixins/emitter';
+  import Locale from 'kade-ui/src/mixins/locale';
   import TransferPanel from './transfer-panel.vue';
-  import Migrating from 'jade-ui/src/mixins/migrating';
+  import Migrating from 'kade-ui/src/mixins/migrating';
 
   export default {
     name: 'ElTransfer',

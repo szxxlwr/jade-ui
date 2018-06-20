@@ -32,8 +32,8 @@
 </template>
 
 <script>
-  import { hasClass } from 'jade-ui/src/utils/dom';
-  import Migrating from 'jade-ui/src/mixins/migrating';
+  import { hasClass } from 'kade-ui/src/utils/dom';
+  import Migrating from 'kade-ui/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

@@ -18,8 +18,8 @@
 </template>
 
 <script type="text/babel">
-  import ElScrollbar from 'jade-ui/packages/scrollbar';
-  import scrollIntoView from 'jade-ui/src/utils/scroll-into-view';
+  import ElScrollbar from 'kade-ui/packages/scrollbar';
+  import scrollIntoView from 'kade-ui/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

@@ -33,7 +33,7 @@
 <script>
   import Color from './color';
   import PickerDropdown from './components/picker-dropdown.vue';
-  import Clickoutside from 'jade-ui/src/utils/clickoutside';
+  import Clickoutside from 'kade-ui/src/utils/clickoutside';
 
   export default {
     name: 'ElColorPicker',

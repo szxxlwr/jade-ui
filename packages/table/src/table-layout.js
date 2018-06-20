@@ -1,4 +1,4 @@
-import scrollbarWidth from 'jade-ui/src/utils/scrollbar-width';
+import scrollbarWidth from 'kade-ui/src/utils/scrollbar-width';
 import Vue from 'vue';
 
 class TableLayout {
