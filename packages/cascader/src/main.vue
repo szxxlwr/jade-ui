@@ -119,6 +119,7 @@ export default {
           children: 'children',
           label: 'label',
           value: 'value',
+          title: 'title',
           disabled: 'disabled'
         };
       }
