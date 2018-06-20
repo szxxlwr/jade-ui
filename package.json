@@ -1,6 +1,6 @@
 {
   "name": "kade-ui",
-  "version": "2.3.9",
+  "version": "2.4.2",
   "description": "A Component Library for Vue.js.",
   "main": "lib/element-ui.common.js",
   "files": [
