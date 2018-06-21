@@ -33,7 +33,7 @@
       class="el-table__body-wrapper"
       ref="bodyWrapper"
       :class="[layout.scrollX ? `is-scrolling-${scrollPosition}` : 'is-scrolling-none']"
-      :style="[bodyHeight]">
+      :style="[bodyHeight]" @scroll="bodyScroll">
       <table-body
         :context="context"
         :store="store"
@@ -322,6 +322,18 @@
     },
 
     methods: {
+      bodyScroll(e) {
+        let tag = e.target;
+        let height = tag.clientHeight;
+        let scrollTop = tag.scrollTop;
+        let scrollHeight = tag.scrollHeight;
+        let isBottom = (scrollHeight <= height + scrollTop);
+        if (isBottom) {
+          // console.log("get scroll");
+          // this.$emit("bodyScroll");
+          this.store.commit('bodyScroll');
+        }
+      },
       getMigratingConfig() {
         return {
           events: {

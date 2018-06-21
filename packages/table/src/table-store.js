@@ -327,6 +327,10 @@ TableStore.prototype.mutations = {
     }
   },
 
+  bodyScroll() {
+    this.table.$emit('body-scroll');
+  },
+
   rowSelectedChanged(states, row) {
     const changed = toggleRowSelection(states, row);
     const selection = states.selection;
